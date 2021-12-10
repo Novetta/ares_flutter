@@ -3,6 +3,10 @@
    <application
         android:label="ares_flutter"
         android:icon="@mipmap/ic_launcher">
+
+       <meta-data android:name="com.google.android.geo.API_KEY"
+           android:value="AIzaSyCzcSzvUApdtqZnZdZCFWLmnGYN_XARb1w"/>
+
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
